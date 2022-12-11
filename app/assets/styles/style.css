@@ -1,0 +1,101 @@
+
+main {
+    background-color: var(--secondary);
+}
+
+.icon img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    justify-content: right;
+    border: 1px solid var(--secondary);
+}
+
+
+.navbar-redirect {
+    display: flex;
+    gap: 0.618em;
+}
+
+.navbar-redirect a {
+    margin-right: 1.618em;
+    font-size: large;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: 0.782px solid var(--terciary);
+    border-radius: var(--border-radius);
+    padding: 0.318em;
+}
+
+.navbar-redirect li a:hover {
+    background-color: var(--secondary);
+    color: var(--terciary);
+    border: 0.782px solid var(--primary);
+}
+
+.title-banner {
+    padding: 0.618em;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/abstract-digital-art.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.title-banner h1 {
+    width: 80%;
+    background-color: var(--terciary);
+    color: var(--secondary);
+    padding: 0.418em;
+    border: 2.618px solid var(--secondary);
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    padding-top: 0.782em;
+    justify-content: center;
+}
+
+.themes-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 2.618em;
+}
+
+.theme {
+    width: 31%;
+    height: max-content;
+    float: left;
+    border: 1.618px solid var(--primary);
+    border-radius: var(--border-radius);
+    background-color: var(--terciary);
+    box-shadow: var(--box-shadow-blue);
+}
+
+.theme h2 {
+    text-align: center;
+    padding-top: 0.618em;
+}
+
+.card-list {
+    display: inline;
+    justify-content: center;
+}
+
+.card-list li {
+    text-align: center;
+    padding-top: 0.218em;
+    margin-bottom: 0.618em;
+}
+
+.card-list li:hover {
+    color: var(--primary);
+    text-shadow: var(--box-shadow);
+}
+
+
