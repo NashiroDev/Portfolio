@@ -1,16 +1,8 @@
-
-
-
-
-
-
-
-
 <header>
     <div class="navbar">
         <div class="container navbar-content">
             <div class="icon">
-                <img src="./assets/image/logoTemp.png" alt="">
+                <img src="logoTemp.png" alt="">
             </div>
             <ul class="navbar-redirect">
                 <li><a href=""><b>Ajouter</b></a></li>

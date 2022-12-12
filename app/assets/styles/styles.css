@@ -99,3 +99,29 @@ main {
 }
 
 
+.sub-title {
+    display: flex;
+    padding-top: 4.618em;
+    justify-content: center;
+    font-size: 1.618em;
+    color: var(--primary);
+    background-image: url(../image/abstract-digital-art.jpg);
+    background-size: 100%;
+    border: 2.618px solid var(--secondary);
+    border-radius: var(--border-radius);
+}
+
+.sub-title h1{
+    justify-content: center;
+    text-align: center;
+    height: 50%;
+    background-color: var(--terciary);
+    color: var(--secondary);
+    padding: 0.418em;
+    border: 2.618px solid var(--secondary);
+    border-radius: var(--border-radius);
+    line-height: 50%;
+}
+
+
+
