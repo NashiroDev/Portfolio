@@ -25,30 +25,30 @@ include_once('/app/config/variables.php');
                 <div class="theme">
                     <h2>Formation</h2>
                     <ul class="card-list">
-                        <li><a href="./templates/gallery.php"><b>TP - sauvegarde</b></a></li>
-                        <li><a href=""><b>TP - Commandes linux</b></a></li>
-                        <li><a href=""><b>TP - Assistance à distance</b></a></li>
-                        <li><a href=""><b>TP - Adressage</b></a></li>
-                        <li><a href=""><b>TP - E-réputation</b></a></li>
-                        <li><a href=""><b>TP - WAMP server</b></a></li>
-                        <li><a href=""><b>Présentation - Alder Lake</b></a></li>
-                        <li><a href=""><b>Veille technologique</b></a></li>
+                        <li><a href="./templates/gallery.php?id=2"><b>TP - sauvegarde</b></a></li>
+                        <li><a href="./templates/gallery.php?id=tp_commandesLinux"><b>TP - Commandes linux</b></a></li>
+                        <li><a href="./templates/gallery.php?id=tp_assistanceADistance"><b>TP - Assistance à distance</b></a></li>
+                        <li><a href="./templates/gallery.php?id=tp_adressage"><b>TP - Adressage</b></a></li>
+                        <li><a href="./templates/gallery.php?id=tp_eReputation"><b>TP - E-réputation</b></a></li>
+                        <li><a href="./templates/gallery.php?id=tp_wamp"><b>TP - WAMP server</b></a></li>
+                        <li><a href="./templates/gallery.php?id=pres_alderLake"><b>Présentation - Alder Lake</b></a></li>
+                        <li><a href="./templates/gallery.php?id=pres_veilleTechnologique"><b>Veille technologique</b></a></li>
                     </ul>
                 </div>
                 <div class="theme">
                     <h2>Entreprise 1e année</h2>
                     <ul class="card-list">
-                        <li><a href=""><b>Support informatique</b></a></li>
-                        <li><a href=""><b>Projet "Chatbot"</b></a></li>
-                        <li><a href=""><b>Maintenance hardware</b></a></li>
-                        <li><a href=""><b>Organisation de réunion</b></a></li>
+                        <li><a href="./templates/gallery.php?id=support_informatique"><b>Support informatique</b></a></li>
+                        <li><a href="./templates/gallery.php?id=projet_chatbot"><b>Projet "Chatbot"</b></a></li>
+                        <li><a href="./templates/gallery.php?id=maintencance_hardware"><b>Maintenance hardware</b></a></li>
+                        <li><a href="./templates/gallery.php?id=organisation_reunion"><b>Organisation de réunion</b></a></li>
                     </ul>
                 </div>
                 <div class="theme">
                     <h2>Entreprise 2e année</h2>
                     <ul class="card-list">
-                        <li><a href=""><b>Présentation de solutions</b></a></li>
-                        <li><a href=""><b>Direction de réunion avec un presta</b></a></li>
+                        <li><a href="./templates/gallery.php?id=pres_solutions"><b>Présentation de solutions</b></a></li>
+                        <li><a href="./templates/gallery.php?id=direction_réunionPresta"><b>Direction de réunion avec un presta</b></a></li>
                     </ul>
                 </div>
             </div>

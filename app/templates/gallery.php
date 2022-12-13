@@ -1,5 +1,12 @@
 <?php session_start();
+
 include_once('/app/config/variables.php');
+include_once('/app/requests/fichiers.php');
+
+if (isset($_GET["id"])) {
+    $fichier = getInfoByID($_GET["id"]);
+    var_dump($fichier);
+}
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +24,16 @@ include_once('/app/config/variables.php');
     <main>
         <div class="container">
             <div class="sub-title">
-                <h1><?= 'TP - Nom de tp au hasard' ?></h1>
+                <h1><?= $fichier['1'] ?></h1>
+            </div>
+            <div class="content">
+                <div class="intro-text">
+                    <h4>Période : <?= $fichier['2'] ?></h4>
+                    <h3><?= $fichier['3']?></h3>
+                </div>
+                <div class="fichier">
+                    ##appel f(x) pour afficher dans l'ordre les fichier du dossier .
+                </div>
             </div>
             
         
