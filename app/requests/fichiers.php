@@ -21,7 +21,14 @@ function getInfoByID($id): array|bool
     return $sqlStatement->fetch();
 }
 
-
+function getRepositoryContent($path): array|bool
+{
+    $pathList = array();
+    foreach (glob($path . "/*") as $file) {
+        array_push($pathList, $file);
+}
+    return $pathList;
+}
 
 
 

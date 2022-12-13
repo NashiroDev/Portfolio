@@ -123,5 +123,25 @@ main {
     line-height: 50%;
 }
 
+.intro-text {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
 
+.intro-text h4 {
+    font-size: 0.9em;
+}
 
+.fichier {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page {
+    margin: 0.618em;
+    text-align: center;
+}

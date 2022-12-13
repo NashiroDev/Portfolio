@@ -5,7 +5,6 @@ include_once('/app/requests/fichiers.php');
 
 if (isset($_GET["id"])) {
     $fichier = getInfoByID($_GET["id"]);
-    var_dump($fichier);
 }
 ?>
 
@@ -29,10 +28,14 @@ if (isset($_GET["id"])) {
             <div class="content">
                 <div class="intro-text">
                     <h4>Période : <?= $fichier['2'] ?></h4>
-                    <h3><?= $fichier['3']?></h3>
+                    <h3><?= $fichier['3'] ?></h3>
                 </div>
                 <div class="fichier">
-                    ##appel f(x) pour afficher dans l'ordre les fichier du dossier .
+                    <?php foreach(getRepositoryContent($fichier['4']) as $image) : ?>
+                        <div class="page">
+                            <img src="<?= $image ?>" alt="No file">
+                        </div>
+                    <?php endforeach; ?>
                 </div>
             </div>
             
