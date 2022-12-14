@@ -13,7 +13,7 @@ include_once('/app/config/variables.php');
     <title>Portfolio</title>
 </head>
 <body>
-    <?php include_once('./templates/header.php'); ?> 
+    <?php include_once($rootTemplates .'header.php'); ?> 
     <main>
         <div class="title-banner">
             <h1><u>Portfolio de Nathan Pauchon regroupant les différentes activités proffesionnalisante au cours de la période du BTS.</u></h1>
@@ -25,14 +25,14 @@ include_once('/app/config/variables.php');
                 <div class="theme">
                     <h2>Formation</h2>
                     <ul class="card-list">
-                        <li><a href="./templates/gallery.php?id=2"><b>TP - sauvegarde</b></a></li>
-                        <li><a href="./templates/gallery.php?id=tp_commandesLinux"><b>TP - Commandes linux</b></a></li>
-                        <li><a href="./templates/gallery.php?id=tp_assistanceADistance"><b>TP - Assistance à distance</b></a></li>
-                        <li><a href="./templates/gallery.php?id=tp_adressage"><b>TP - Adressage</b></a></li>
-                        <li><a href="./templates/gallery.php?id=tp_eReputation"><b>TP - E-réputation</b></a></li>
-                        <li><a href="./templates/gallery.php?id=tp_wamp"><b>TP - WAMP server</b></a></li>
-                        <li><a href="./templates/gallery.php?id=pres_alderLake"><b>Présentation - Alder Lake</b></a></li>
-                        <li><a href="./templates/gallery.php?id=pres_veilleTechnologique"><b>Veille technologique</b></a></li>
+                        <li><a href="gallery.php?id=2"><b>TP - sauvegarde</b></a></li>
+                        <li><a href="gallery.php?id=tp_commandesLinux"><b>TP - Commandes linux</b></a></li>
+                        <li><a href="gallery.php?id=tp_assistanceADistance"><b>TP - Assistance à distance</b></a></li>
+                        <li><a href="gallery.php?id=tp_adressage"><b>TP - Adressage</b></a></li>
+                        <li><a href="gallery.php?id=tp_eReputation"><b>TP - E-réputation</b></a></li>
+                        <li><a href="gallery.php?id=tp_wamp"><b>TP - WAMP server</b></a></li>
+                        <li><a href="gallery.php?id=pres_alderLake"><b>Présentation - Alder Lake</b></a></li>
+                        <li><a href="gallery.php?id=pres_veilleTechnologique"><b>Veille technologique</b></a></li>
                     </ul>
                 </div>
                 <div class="theme">

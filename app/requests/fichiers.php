@@ -8,7 +8,7 @@ include_once('/app/config/mysql.php');
  * @param integer $id
  * @return array|boolean
  */
-function getInfoByID($id): array|bool
+function getInfoByID(int $id): array|bool
 {
     global $db;
 
@@ -21,12 +21,13 @@ function getInfoByID($id): array|bool
     return $sqlStatement->fetch();
 }
 
-function getRepositoryContent($path): array|bool
+function getRepositoryContent(string $folder): array|bool
 {
     $pathList = array();
-    foreach (glob($path . "/*") as $file) {
-        array_push($pathList, $file);
-}
+    foreach (glob('/app'.$folder . "/*") as $file) {
+        array_push($pathList, str_replace('/app', '',$file));
+    }
+
     return $pathList;
 }
 

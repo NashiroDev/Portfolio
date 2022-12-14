@@ -19,15 +19,15 @@ if (isset($_GET["id"])) {
     <title>Portfolio</title>
 </head>
 <body>
-    <?php include_once('./header.php'); ?>
+    <?php include_once($rootTemplates.'header.php'); ?>
     <main>
         <div class="container">
             <div class="sub-title">
-                <h1><?= $fichier['1'] ?></h1>
+                <h1><?= $fichier['nom'] ?></h1>
             </div>
             <div class="content">
                 <div class="intro-text">
-                    <h4>Période : <?= $fichier['2'] ?></h4>
+                    <h4>Période : <?= $fichier['periode'] ?></h4>
                     <h3><?= $fichier['3'] ?></h3>
                 </div>
                 <div class="fichier">
