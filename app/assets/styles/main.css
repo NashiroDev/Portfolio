@@ -100,6 +100,11 @@ section {
   margin: auto;
   font-family: "Ubuntu-Regular";
 }
+.little-container {
+  width: 75%;
+  margin: auto;
+  font-family: "Ubuntu-Regular";
+}
 section {
   margin: 3.5em auto;
 }
@@ -230,4 +235,8 @@ footer {
   padding: 0.382em;
   text-align: center;
   background: linear-gradient(var(--secondary), 61.8%, var(--primary));
+}
+
+main {
+  margin-top: 81px;
 }
