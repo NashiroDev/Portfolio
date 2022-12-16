@@ -21,7 +21,7 @@ if (isset($_GET["id"])) {
 <body>
     <?php include_once($rootTemplates.'header.php'); ?>
     <main>
-        <div class="container">
+        <div class="little-container">
             <div class="sub-title">
                 <h1><?= $fichier['nom'] ?></h1>
             </div>
@@ -38,8 +38,6 @@ if (isset($_GET["id"])) {
                     <?php endforeach; ?>
                 </div>
             </div>
-            
-        
         </div>
 
     </main>
@@ -50,6 +48,6 @@ if (isset($_GET["id"])) {
 
 
 
-    <?php include_once('./footer.php'); ?>
+    <?php include_once('./templates/footer.php'); ?>
 </body>
 </html>

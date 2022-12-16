@@ -101,7 +101,7 @@ main {
 
 .sub-title {
     display: flex;
-    padding-top: 4.618em;
+    padding-top: 1.418em;
     justify-content: center;
     font-size: 1.618em;
     color: var(--primary);
@@ -109,15 +109,16 @@ main {
     background-size: 100%;
     border: 2.618px solid var(--secondary);
     border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 .sub-title h1{
     justify-content: center;
     text-align: center;
-    height: 50%;
     background-color: var(--terciary);
     color: var(--secondary);
     padding: 0.418em;
+    margin: 0.618em;
     border: 2.618px solid var(--secondary);
     border-radius: var(--border-radius);
     line-height: 50%;
@@ -128,10 +129,18 @@ main {
     text-align: center;
     justify-content: center;
     width: 100%;
+    margin-top: 0.618em;
 }
 
 .intro-text h4 {
     font-size: 0.9em;
+}
+
+.intro-text h3 {
+    margin: 1.418em;
+    background-color: var(--terciary);
+    border: var(--secondary);
+    border-radius: var(--border-radius);
 }
 
 .fichier {
@@ -139,9 +148,14 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+    border: 2.618px solid var(--primary);
+    box-shadow: var(--box-shadow-blue);
 }
 
-.page {
-    margin: 0.618em;
-    text-align: center;
+.page img {
+    width: 1132px;
+    height: 100%;
+    margin-bottom: 0.618em;
 }
+
+
